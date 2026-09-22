@@ -7,6 +7,13 @@
 
 **Impact:** Empowers collection development librarians by automatically delivering a scheduled report, every 30 days, that includes actionable insights on items to consider for repurchase.
 
+## Features and Deliverables
+
+**Automated Email:**
+
+<img width="952" height="631" alt="Monthly Billed Items Email" src="https://github.com/user-attachments/assets/e3efae5c-4ceb-4576-ba64-b6fff5be795d" />
+
+
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
 
