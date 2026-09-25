@@ -13,6 +13,12 @@
 
 <img width="952" height="631" alt="Monthly Billed Items Email" src="https://github.com/user-attachments/assets/e3efae5c-4ceb-4576-ba64-b6fff5be795d" />
 
+**Attached Excel Report:**
+
+<img width="1380" height="964" alt="Billed-Items" src="https://github.com/user-attachments/assets/609e2500-d7f2-4879-bb42-47d34f5d8f89" />
+
+<img width="1377" height="985" alt="Billed-Items" src="https://github.com/user-attachments/assets/79162cc8-2e57-4c82-b1ac-0070100ca72d" />
+
 
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
