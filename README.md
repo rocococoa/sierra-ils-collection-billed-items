@@ -3,9 +3,9 @@
 ![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## Summary
-**What it does:** This automated report identifies items billed between 30 and 60 days ago.
+**What it does:** This automated report identifies items billed between 30 and 60 days from the time of the report.
 
-**Impact:** Empowers collection development librarians by automatically delivering a scheduled report, every 30 days, that includes actionable insights on items to consider for repurchase.
+**Impact:** Empowers the collection development team by automatically delivering a scheduled report, every 30 days, that includes actionable insights on items to consider for repurchase.
 
 ## Features and Deliverables
 
@@ -17,8 +17,12 @@
 
 <img width="1380" height="964" alt="Billed-Items" src="https://github.com/user-attachments/assets/609e2500-d7f2-4879-bb42-47d34f5d8f89" />
 
-<img width="1377" height="985" alt="Billed-Items" src="https://github.com/user-attachments/assets/79162cc8-2e57-4c82-b1ac-0070100ca72d" />
+Beyond surfacing items that have been billed for 30-60 days, the report is designed to streamline repurchasing decisions by providing key metrics for each item, including:
+- Recent circulation data
+- Current holds
+- Date billed
 
+<img width="1377" height="985" alt="Billed-Items" src="https://github.com/user-attachments/assets/79162cc8-2e57-4c82-b1ac-0070100ca72d" />
 
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
